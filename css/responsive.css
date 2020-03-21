@@ -1,0 +1,803 @@
+@media (min-width: 1400px) {
+    header .container,
+    #hero .container,
+    footer .container,
+    #our-services .container {
+        max-width: 1171px;
+    }
+    #image-gallery .owl-carousel .owl-nav.disabled button.owl-prev {
+        margin-right: 66px!important;
+    }
+
+}
+@media (max-width: 1200px) {
+    header .container,
+    #hero .container,
+    footer .container,
+    #our-services .container {
+        max-width: 1171px;
+    }
+    header nav .nav-menu li {
+        margin-right: 20px;
+    }
+}
+@media  (max-width: 1024px){
+    header nav .nav-menu{
+        display: none;
+    }
+     .burger-menu {
+        display: block;
+    }
+     .burger-menu_button{
+           left: 15px;
+       }
+    header .number {
+        display: none;
+    }
+    header {
+        padding-top: 15px;
+    }
+    header .logo {
+        padding-left: 40px;
+        font-size: 25px;
+    }
+    header .logo:after {
+        display: none;
+    }
+    .hero-container {
+        max-width: 100%;
+        padding: 180px 15px 0 15px;
+    }
+
+    #hero {
+        background-size: cover;
+        height: 100vh;
+    }
+    .hero-container {
+        text-align: left;
+    }
+    .hero-container .box-play {
+        display: none!important;
+    }
+    .hero-container .box h1 {
+        font-size: 30px;
+    }
+    #our-services {
+        text-align: center;
+    }
+    #our-services .service-box .img {
+        justify-content: center;
+    }
+    #process {
+        text-align: center;
+    }
+    #process .row.background{
+        display: none;
+    }
+    #process .box {
+        text-align: center;
+        background: #ffffff;
+        box-sizing: border-box;
+        padding: 35px 10px 60px 10px;
+        margin-bottom: 12px;
+        left: 0;
+        top: 0;
+        position: relative;
+    }
+    #process .row-diagrama {
+        display: flex;
+    }
+    #process .box:after {
+        display: none;
+        position: relative;
+    }
+    #process .box:before {
+        display: none;
+    }
+    #process .road-box,
+    #process .adjust-box{
+        margin-top: 0;
+    }
+    #process .road {
+        position: relative;
+    }
+    #process .box.puddles {
+        position: relative;
+        left: 0;
+    }
+    #process .box.rgb {
+        position: relative;
+        right: 0;
+    }
+    #process .box.steamroller {
+        margin-top: 0;
+        padding-left: 0;
+    }
+    #process .row-diagrama .col3 {
+        width: 100%;
+    }
+    #process .box.flask,
+    #process .box.road,
+    #process .box.adjust,
+    #process .box.rgb,
+    #process .box.puddles,
+    #process .box.steamroller {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    #process .box .img {
+        margin-bottom: 25px;
+    }
+    #about {
+        text-align: center;
+    }
+    #technology {
+        padding: 70px 0 80px 0;
+    }
+    #process .section-title,
+    #image-gallery .section-title,
+    #video .section-title,
+    #technology .section-title,
+    #process .section-title,
+    #process .section-title{
+        margin-bottom: 60px;
+        font-size: 37px;
+    }
+    .section-subtitle {
+        padding: 0 40px;
+    }
+    #objects .section-title {
+        margin-bottom: 85px;
+    }
+    #objects .box {
+        height: 500px;
+        margin-bottom: 60px;
+    }
+    #objects .btn-box {
+        display: flex;
+        justify-content: space-around;
+    }
+    #partners {
+        padding: 100px 0;
+    }
+    #partners .section-subtitle {
+        margin-bottom: 45px;
+    }
+    #partners ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #partners ul li {
+        margin-right: 0;
+        justify-content: center;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    #partners ul li:last-child {
+        margin-bottom: 0;
+    }
+    #image-gallery {
+        padding: 80px 0 100px;
+    }
+    #video .video-wrapper {
+        margin: 35px 0;
+        padding: 90px 70px;
+    }
+    #reviews {
+        text-align: center;
+        padding: 75px 0 90px 0;
+    }
+    #reviews .col-md-12 {
+        width: 100%;
+    }
+    #reviews .box {
+        padding: 0 0 20px 0;
+    }
+    #reviews .box a {
+        display: inline-block;
+    }
+    #reviews .col-lg-5 {
+        margin-left: 0;
+        justify-content: center;
+    }
+    #reviews .slider {
+        justify-content: center;
+    }
+    #reviews .slide-box {
+        box-shadow: none;
+        margin: 0;
+        padding: 30px 0 0 0;
+        width: 100%;
+    }
+    #reviews .slide-box h3 {
+        font-size: 18px;
+    }
+    #reviews .slide-box p {
+        font-size: 15px;
+    }
+    #reviews .owl-carousel .owl-nav button {
+        display: none;
+    }
+    footer {
+        padding: 63px 0 80px 0;
+        text-align: center;
+    }
+    footer .logo {
+        margin: 0;
+    }
+    footer .block-title {
+        display: none;
+    }
+    footer .nav-row {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    footer .nav-row ul {
+        margin-bottom: 12px;
+    }
+    footer .num {
+        justify-content: center;
+    }
+    footer .number p {
+        font-size: 26px;
+    }
+    footer .number a {
+        display: block;
+        width: 100%;
+        padding: 15px 53px;
+        background: #fedf84;
+        border-radius: 10px;
+        color: #322c27;
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+
+}
+@media (min-width: 320px)  and (max-width: 768px) {
+    main {
+        text-align: center;
+    }
+    .burger-menu_button{
+        left: 0;
+    }
+    .row {
+        justify-content: center;
+    }
+    .hero-container h1 {
+        margin-bottom: 35px;
+    }
+    .hero-container p {
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 40px;
+    }
+    .hero-container .button {
+        font-size: 15px;
+    }
+    .container {
+        width: 100%;
+        padding: 0 30px;
+    }
+    #our-services {
+        padding: 66px 0 72px 0;
+        text-align: center;
+    }
+    #our-services .section-title {
+        margin-bottom: 27px;
+    }
+    #our-services .section-subtitle {
+        margin-bottom: 40px;
+    }
+    #our-services .row.even {
+        margin-top: 0;
+    }
+    #our-services .service-box {
+        margin-bottom: 60px;
+    }
+    #our-services .service-box:last-child {
+        margin-bottom: 0;
+    }
+    #our-services .service-box p {
+        font-size: 15px;
+    }
+
+    #objects .section-title,
+    #process .section-title,
+    #technology .section-title,
+    #about .section-title,
+    #our-services .section-title,
+    #partners .section-title,
+    #image-gallery .section-title,
+    #video .section-title,
+    #reviewss .section-title {
+        font-size: 30px;
+    }
+     .section-subtitle {
+        padding: 0;
+        font-size: 15px;
+        margin-bottom: 65px;
+    }
+     #process {
+         background: #f9f9f9;
+         padding: 65px 0 95px 0;
+     }
+     #process .row {
+         margin: 0;
+     }
+     #process .box {
+         text-align: center;
+         background: #ffffff;
+         box-sizing: border-box;
+         padding: 35px 10px 60px 10px;
+         margin-bottom: 12px;
+         left: 0;
+         top: 0;
+         position: relative;
+     }
+    #process .box .img svg {
+        position: relative;
+    }
+     #process .box span {
+         font-size: 20px;
+         color: #b0b0b0;
+         font-weight: 700;
+         position: absolute;
+         left: 40%;
+         top: 27px;
+         margin: auto;
+         display: inline;
+     }
+     #process .box.flask,
+     #process .box.road,
+     #process .box.adjust,
+     #process .box.rgb,
+     #process .box.puddles,
+     #process .box.steamroller {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+     #process .box .img {
+         margin-bottom: 25px;
+     }
+    #about {
+        text-align: center;
+        padding: 70px 0 80px 0;
+    }
+    #about .section-title {
+        margin-bottom: 22px;
+    }
+    #about .section-subtitle {
+        margin-bottom: 60px;
+    }
+    #about .col-wrapper .item.top {
+        margin-top: 0;
+    }
+    #about .col-wrapper .item {
+        position: relative;
+        margin-top: 0;
+        padding: 32px 0;
+    }
+    #about .col-wrapper .item:after {
+        content: "";
+        width: 92px;
+        height: 1px;
+        background: #3c3f49;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #about .col-wrapper .item:last-child:after {
+        display: none;
+    }
+    #about .col-wrapper .item.last {
+        padding: 16px 0 0 0;
+    }
+    #technology {
+        text-align: center;
+        padding: 100px 0 63px 0;
+    }
+    #technology .section-title {
+        margin-bottom: 22px;
+    }
+    #technology .section-subtitle {
+        margin-bottom: 24px;
+    }
+    #technology .box {
+        margin-bottom: 45px;
+    }
+    #technology .box.last {
+        margin-bottom: 0;
+    }
+    #objects {
+        padding: 60px 0 73px;
+        text-align: center;
+        background: #f9f9f9;
+    }
+    #objects .section-title {
+        margin-bottom: 33px;
+    }
+    #objects .box {
+        margin-bottom: 25px;
+        height: auto;
+    }
+    #objects .box .box-text {
+        padding: 43px 0 60px 0;
+    }
+    #objects .box .box-text h3 {
+        margin-bottom: 25px;
+    }
+    #objects .btn-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #objects .btn-box a {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    #objects .btn-2 {
+        margin-top: 15px;
+    }
+    #partners {
+        padding: 54px 0 71px 0;
+    }
+    #partners .section-title {
+        margin-bottom: 22px;
+    }
+    #partners .section-subtitle {
+        margin-bottom: 45px;
+    }
+    #image-gallery {
+        padding: 56px 0 85px 0;
+    }
+    #image-gallery .section-title {
+        margin-bottom: 40px;
+    }
+    #image-gallery .owl-carousel .owl-nav.disabled {
+        margin: 30px auto auto auto;
+        width: 100%;
+        height: 0;
+        background: none;
+        border: none;
+    }
+    #image-gallery .owl-carousel .owl-nav button {
+        width: 50px;
+        height: 50px;
+        background: none!important;
+        border: 1px solid #f8c242;
+        outline: none;
+        position: relative;
+        border-radius: 10px;
+    }
+    .owl-carousel .owl-nav button span {
+        font-size: 35px;
+        color: #272c39;
+        position: absolute;
+        top: -2px;
+        left: 0;
+        right: 0;
+    }
+    #video {
+        padding: 60px 0;
+    }
+    #video .section-title {
+        margin: 0;
+    }
+    #video .video-wrapper {
+        padding: 0;
+        margin: 45px 0 22px 0;
+    }
+    #video .video-wrapper h2 {
+        font-size: 64px;
+    }
+    #video .video-wrapper .icon {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -19px;
+        margin: auto;
+    }
+    #video .video-wrapper  .icon img {
+        width: 35px;
+        height: 35px;
+        border-radius: 40%;
+    }
+    #reviews {
+        background:#f9f9f9;
+    }
+    #reviews .slide-box {
+        padding: 40px 0 35px 25px;
+        text-align: left;
+        overflow: hidden;
+    }
+    #reviews .slide-box h3 {
+        margin-bottom: 20px;
+    }
+    #reviews .slide-box p {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+     main {
+        text-align: center;
+    }
+    #hero {
+        background: url("../images/responsivebg.png") no-repeat center center;
+        background-size: cover;
+
+    }
+    .row {
+        justify-content: center;
+    }
+    .hero-container {
+        padding-top: 117px;
+    }
+    .hero-container h1 {
+        margin-bottom: 35px;
+    }
+    .hero-container p {
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 40px;
+    }
+    .hero-container .button {
+        font-size: 15px;
+    }
+    .container {
+        width: 100%;
+        padding: 0 30px;
+    }
+    #our-services {
+        padding: 66px 0 72px 0;
+        text-align: center;
+    }
+    #our-services .section-title {
+        margin-bottom: 27px;
+    }
+    #our-services .section-subtitle {
+        margin-bottom: 40px;
+    }
+    #our-services .row.even {
+        margin-top: 0;
+    }
+    #our-services .service-box {
+        margin-bottom: 60px;
+    }
+    #our-services .service-box:last-child {
+        margin-bottom: 0;
+    }
+    #our-services .service-box p {
+        font-size: 15px;
+    }
+
+    #objects .section-title,
+    #process .section-title,
+    #technology .section-title,
+    #about .section-title,
+    #our-services .section-title,
+    #partners .section-title,
+    #image-gallery .section-title,
+    #video .section-title,
+    #reviewss .section-title {
+        font-size: 30px;
+    }
+     .section-subtitle {
+        padding: 0;
+        font-size: 15px;
+        margin-bottom: 65px;
+    }
+     #process {
+         background: #f9f9f9;
+         padding: 65px 0 95px 0;
+     }
+    #process {
+        background: #f9f9f9;
+        padding: 45px 0 55px 0;
+    }
+    #process .row {
+        margin: 0;
+    }
+    #process .box {
+        text-align: center;
+        background: #ffffff;
+        box-sizing: border-box;
+        padding: 35px 10px 60px 10px;
+        margin-bottom: 12px;
+        left: 0;
+        top: 0;
+        position: relative;
+    }
+    #process .box .img svg {
+        position: relative;
+    }
+    #process .box span {
+        font-size: 20px;
+        color: #b0b0b0;
+        font-weight: 700;
+        position: absolute;
+        left: 40%;
+        top: 27px;
+        margin: auto;
+        display: inline;
+    }
+    #process .box.flask,
+    #process .box.road,
+    #process .box.adjust,
+    #process .box.rgb,
+    #process .box.puddles,
+    #process .box.steamroller {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    #process .box.adjust {
+        left: 0;
+        top: 0;
+    }
+    #process .box.road {
+        top: 0;
+        left: 0;
+    }
+    #about {
+        text-align: center;
+        padding: 70px 0 80px 0;
+    }
+    #about .section-title {
+        margin-bottom: 22px;
+    }
+    #about .section-subtitle {
+        margin-bottom: 60px;
+    }
+    #about .col-wrapper .item.top {
+        margin-top: 0;
+    }
+    #about .col-wrapper .item {
+        position: relative;
+        margin-top: 0;
+        padding: 32px 0;
+    }
+    #about .col-wrapper .item:after {
+        content: "";
+        width: 92px;
+        height: 1px;
+        background: #3c3f49;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #about .col-wrapper .item:last-child:after {
+        display: none;
+    }
+    #about .col-wrapper .item.last {
+        padding: 16px 0 0 0;
+    }
+    #technology {
+        text-align: center;
+        padding: 100px 0 63px 0;
+    }
+    #technology .section-title {
+        margin-bottom: 22px;
+    }
+    #technology .section-subtitle {
+        margin-bottom: 24px;
+    }
+    #technology .box {
+        margin-bottom: 45px;
+    }
+    #technology .box.last {
+        margin-bottom: 0;
+    }
+    #objects {
+        padding: 60px 0 73px;
+        text-align: center;
+        background: #f9f9f9;
+    }
+    #objects .section-title {
+        margin-bottom: 33px;
+    }
+    #objects .box {
+        margin-bottom: 25px;
+        height: auto;
+    }
+    #objects .box .box-text {
+        padding: 43px 0 60px 0;
+    }
+    #objects .box .box-text h3 {
+        margin-bottom: 25px;
+    }
+    #objects .btn-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #objects .btn-box a {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    #objects .btn-2 {
+        margin-top: 15px;
+    }
+    #partners {
+        padding: 54px 0 71px 0;
+    }
+    #partners .section-title {
+        margin-bottom: 22px;
+    }
+    #partners .section-subtitle {
+        margin-bottom: 45px;
+    }
+    #image-gallery {
+        padding: 56px 0 85px 0;
+    }
+    #image-gallery .section-title {
+        margin-bottom: 40px;
+    }
+    #image-gallery .owl-carousel .owl-nav.disabled {
+        margin: 30px auto auto auto;
+        width: 100%;
+        height: 0;
+        background: none;
+        border: none;
+    }
+    #image-gallery .owl-carousel .owl-nav button {
+        width: 50px;
+        height: 50px;
+        background: none!important;
+        border: 1px solid #f8c242;
+        outline: none;
+        position: relative;
+        border-radius: 10px;
+    }
+    .owl-carousel .owl-nav button span {
+        font-size: 35px;
+        color: #272c39;
+        position: absolute;
+        top: -2px;
+        left: 0;
+        right: 0;
+    }
+    #video {
+        padding: 60px 0;
+    }
+    #video .section-title {
+        margin: 0;
+    }
+    #video .video-wrapper {
+        padding: 0;
+        margin: 45px 0 22px 0;
+    }
+    #video .video-wrapper h2 {
+        font-size: 64px;
+    }
+    #video .video-wrapper .icon {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -19px;
+        margin: auto;
+    }
+    #video .video-wrapper  .icon img {
+        width: 35px;
+        height: 35px;
+        border-radius: 40%;
+    }
+    #reviews {
+        background:#f9f9f9;
+    }
+    #reviews .slide-box {
+        padding: 40px 0 35px 25px;
+        text-align: left;
+        overflow: hidden;
+    }
+    #reviews .slide-box h3 {
+        margin-bottom: 20px;
+    }
+    #reviews .slide-box p {
+        margin-bottom: 25px;
+    }
+}
