@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="owlcarousel/libs/owlcarousel2/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/libs/owlcarousel2/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href=css/responsive.css>
@@ -23,6 +24,7 @@
         <nav class="header">
             <a href="#" class="logo">
                 STABGRUNT
+                <span>Комплексное укрепление грунта</span>
             </a>
             <ul class="nav-menu">
                 <li><a href="#hero">Главная</a></li>
@@ -32,7 +34,7 @@
                 <li><a href="#">Новости</a></li>
                 <li><a href="#">Контакты</a></li>
             </ul>
-            <div class="number">
+            <div class="number header-number">
                 <a href="#">+7 (495) 978-99-89</a>
                 <a href="#callback"  class="popup-with-form" >Заказать звонок</a>
             </div>
@@ -43,6 +45,7 @@
                 <nav class="burger-menu_nav">
                     <a href="#" class="burger-logo">
                         STABGRUNT
+                        <span style="display: block">Комплексное укрепление грунта</span>
                     </a>
 
                     <ul class="">
@@ -53,6 +56,10 @@
                         <li><a href="#">Новости</a></li>
                         <li><a href="#">Контакты</a></li>
                     </ul>
+                    <div class="number">
+                        <a href="#">+7 (495) 978-99-89</a>
+                        <a href="#callback"  class="popup-with-form" >Заказать звонок</a>
+                    </div>
                 </nav>
                 <div class="burger-menu_overlay">
 
@@ -75,16 +82,17 @@
                             механическими и химическими методами
                             с целью получения необходимых
                             для применения в строительстве свойств. </p>
-                        <div class="d-flex">
-                            <a class="button" href="#">Отправить заявку</a>
+                        <div class="btn-box">
+                            <a href="#zayavka" class="button popup-with-form" >Отправить заявку</a>
+                            <a href="#video" class="box-play d-flex">
+                                <img src="images/main-play.png" alt="">
+                                Смотрите видео до\после <br>
+                                    стабилизации грунта
+                            </a>
                         </div>
                     </div>
                 </div>
-                <a href="#      " class="box-play d-flex">
-                    <img src="images/main-play.png" alt="">
-                    <p>Смотрите видео до\после <br>
-                        стабилизации грунта</p>
-                </a>
+
             </div>
         </div>
     </section>
@@ -467,17 +475,16 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 collection-more">
-                    <div class="btn-box d-flex">
-                        <a href="#callback" class="buttons popup-with-form d-flex justify-content-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 collection-more ">
+                    <div class="btn-box d-flex justify-content-between">
+                        <a href="#callback" class="button popup-with-form d-flex align-items-center">
                             Заказать звонок
-                            <i class="fas fa-phone"></i>
+                            <i class="fas fa-phone ml-3"></i>
                         </a>
-                        <a href="#" class="js-scroll button button-invert trigger   buttons btn-2 d-flex justify-content-center">
+                        <a href="#" class=" button  button-invert js-scroll trigger    d-flex justify-content-center">
                             Показать еще
-                            <i class=""></i>
+                            <i class="ml-3">...</i>
                         </a>
-
                     </div>
                 </div>
             </div>
@@ -527,23 +534,33 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="box">
-                        <div class="video-wrapper">
-                            <h2>Видео</h2>
-                            <div class="icon">
-                                <img src="images/youtube.png" alt="">
+                        <a class="video-wrapper popup-youtube" href="https://www.youtube.com/watch?v=KyYuIKKIAuc">
+                            <div class="bag-images" >
+                                <div class="bag-over img-sl">
+                                    <button class="ytp-play-button ytp-button">
+                                        <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%">
+                                            <path class="ytp-play-button-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#212121" fill-opacity="0.8"></path><path d="M 45,24 27,14 27,34" fill="#fff"></path>
+                                        </svg>
+                                    </button>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                         <span class="video-subtitle">До</span>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="box">
-                        <div class="video-wrapper">
-                            <h2>Видео</h2>
-                            <div class="icon">
-                                <img src="images/youtubegray.png" alt="">
+                        <a class="video-wrapper popup-youtube" href="https://www.youtube.com/watch?v=KyYuIKKIAuc">
+                            <div class="bag-images" >
+                                <div class="bag-over img-sl">
+                                    <button class="ytp-play-button ytp-button">
+                                        <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%">
+                                            <path class="ytp-play-button-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#212121" fill-opacity="0.8"></path><path d="M 45,24 27,14 27,34" fill="#fff"></path>
+                                        </svg>
+                                    </button>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                         <span class="video-subtitle">После</span>
                     </div>
                 </div>
@@ -559,7 +576,7 @@
                             клиентов</h2>
                         <p>Мнение наших клиентов о
                             сотрудничестве с нами</p>
-                        <a href="#" class="button">Оставить отзыв</a>
+                        <a href="#review" class="button popup-with-form">Оставить отзыв</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 justify-content-center slides">
@@ -627,13 +644,18 @@
             <input type="hidden" name="project_name" >
             <input type="hidden" name="admin_email">
             <input type="hidden" name="form_subject" >
-            <div class="input_filed">
+            <div class="input_filed align-items-center d-flex">
                 <i class="fas fa-user"></i>
-                <input type="text" name="Имя" class="d-flex" placeholder="Ваше имя">
+                <input type="text" name="Имя" class="d-flex" placeholder="Ваше имя" required>
             </div>
-            <div class="input_filed">
+            <div class="input_filed align-items-center d-flex">
                 <i class="fas fa-phone"></i>
-                <input type="text" name="Телефон" class="d-flex js-val" placeholder="Ваш номер телефон">
+                <input type="tel" name="Телефон"
+                       class="d-flex js-val"
+                       placeholder="Ваш номер телефон"
+                       required
+                       pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"
+                >
             </div>
             <button type="submit" id="mc-submit"  class="button">Отправить заявку</button>
             <label class="confidential">
@@ -644,6 +666,84 @@
         </form>
         <button title="Close (Esc)" type="button" class="mfp-close">×</button>
     </div>
+    <div id="zayavka" class="col-11 m-auto col-md-6 col-lg-4 white-popup-block mfp-hide">
+        <div class="title">Оставить заявку</div>
+        <span>Заполните форму и в течение 20 минут наш менеджер вам перезвонит!</span>
+        <form class="js-main-form">
+            <input type="hidden" name="project_name" >
+            <input type="hidden" name="admin_email">
+            <input type="hidden" name="form_subject" >
+            <div class="input_filed align-items-center d-flex">
+                <i class="fas fa-user"></i>
+                <input type="text" name="Имя" class="d-flex" placeholder="Ваше имя">
+            </div>
+            <div class="input_filed align-items-center d-flex">
+                <i class="fas fa-phone"></i>
+                <input type="tel" name="Телефон"
+                       class="d-flex js-val"
+                       placeholder="Ваш номер телефон"
+                       required
+                       pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"
+                >
+            </div>
+            <button type="submit" id="mc-submits"  class="button">Отправить заявку</button>
+            <label class="confidential">
+                <input type="checkbox" name="confidential"
+                      >
+                Я согласен с <a href="" target="_blank">политикой обаботки персональных данных</a>
+            </label>
+        </form>
+        <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+    </div>
+    <div id="review" class="col-11 m-auto col-md-8 col-lg-6 white-popup-block mfp-hide">
+        <div class="title">Оставить отзыв</div>
+        <form class="js-main-form-2">
+            <input type="hidden" name="project_name" value="Stabgrunt">
+            <input type="hidden" name="admin_email" value="info@stabgrunt.ru">
+            <input type="hidden" name="form_subject" value="Отзыв">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 p-1">
+                        <div class="input_filed">
+                            <i class="fas fa-user"></i>
+                            <input type="text"
+                                   name="Имя"
+                                   class="d-flex"
+                                   placeholder="Ваше имя"
+                                   required pattern=[a-z]
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 p-1">
+                        <div class="input_filed">
+                            <i class="fas fa-envelope"></i>
+                            <input type="text"
+                                   name="E-mail"
+                                   class="d-flex"
+                                   placeholder="Ваше E-mail">
+                        </div>
+                    </div>
+                    <div class="col-md-12 p-1">
+                        <div class="input_filed">
+                            <textarea type="textarea" name="Отзыв" class="d-flex js-val" placeholder="Текст отзыва"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12 p-1 text-center">
+                        <input type="submit" value="Опубликовать" id="mc-submit2" class="button">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <button title="Close (Esc)" type="button" class="mfp-close">×</button></div>
+    <div  class="mfp-container mfp-iframe-holder mfp-hide">
+        <div class="mfp-content">
+            <div class="mfp-iframe-scaler">
+            <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=KyYuIKKIAuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 </main>
 <footer>
     <div class="container">
@@ -651,6 +751,7 @@
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                 <a href="#hero" class="logo">
                     STABGRUNT
+                    <span>Комплексное укрепление грунта</span>
                 </a>
             </div>
             <div class="col-lg-4  col-md-12 col-sm-12 col-xs-12">

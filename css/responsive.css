@@ -5,9 +5,7 @@
     #our-services .container {
         max-width: 1171px;
     }
-    #image-gallery .owl-carousel .owl-nav.disabled button.owl-prev {
-        margin-right: 66px!important;
-    }
+
 
 }
 @media (max-width: 1200px) {
@@ -31,7 +29,7 @@
      .burger-menu_button{
            left: 15px;
        }
-    header .number {
+     .header-number {
         display: none;
     }
     header {
@@ -41,14 +39,13 @@
         padding-left: 40px;
         font-size: 25px;
     }
-    header .logo:after {
+    header .logo span {
         display: none;
     }
     .hero-container {
         max-width: 100%;
         padding: 180px 15px 0 15px;
     }
-
     #hero {
         background-size: cover;
         height: 100vh;
@@ -479,6 +476,11 @@
         top: -2px;
         left: 0;
         right: 0;
+        margin: 13px 13px;
+    }
+    #image-gallery .owl-carousel .owl-nav button.owl-prev span,
+    #image-gallery .owl-carousel .owl-nav button.owl-next span {
+        margin: 13px;
     }
     #video {
         padding: 60px 0;
@@ -519,6 +521,18 @@
     #reviews .slide-box p {
         margin-bottom: 25px;
     }
+    .white-popup-block .title {
+    font-size: 23px
+    }
+    .button {
+        font-size: 14px;
+    }
+}
+    .white-popup-block span {
+        margin-bottom: 15px
+}
+  .white-popup-block {
+    padding: 20px;
 }
 
 @media (max-width: 320px) {
