@@ -90,12 +90,15 @@ $(document).ready(function(){
         }
     });
 });
+new WOW().init(
+);
 
 jQuery(document).ready(function($) {
     $('.popup-with-form').magnificPopup({
         type: 'inline'
     });
 });
+
 jQuery('.collections .collection:gt(2)').wrapAll('<div class="container"><div class="row collection-mr"></div></div>');
 
 let numzi = jQuery(".collections").find(".collection").length;
@@ -129,6 +132,7 @@ jQuery('.collection-more .button-invert').on('click', function(e){
         content.slideDown();
     }
 });
+
 jQuery('.popup-youtube').magnificPopup({
     disableOn: 100,
     type: 'iframe',
@@ -137,6 +141,8 @@ jQuery('.popup-youtube').magnificPopup({
     preloader: false,
     fixedContentPos: false
 });
-
-
+function btn(e) {
+    let btn = document.getElementsByClassName("button")
+    e.preventDefault()
+}
 

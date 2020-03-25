@@ -527,13 +527,14 @@
     .button {
         font-size: 14px;
     }
-}
     .white-popup-block span {
         margin-bottom: 15px
+    }
+    .white-popup-block {
+        padding: 20px;
+    }
 }
-  .white-popup-block {
-    padding: 20px;
-}
+
 
 @media (max-width: 320px) {
      main {

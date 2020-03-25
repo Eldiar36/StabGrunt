@@ -264,6 +264,13 @@ main{
 .mfp-iframe-holder .mfp-close {
     top: -40px;
 }
+.popup-form-ok {
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3.581px 10.401px 40px 0 rgba(54, 54, 54, 0.09);
+    padding: 0 3em 1em;
+    position: relative;
+}
 header {
     padding-top: 35px;
     position: absolute;
