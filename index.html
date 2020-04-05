@@ -642,17 +642,17 @@
     <div id="callback" class="col-11 m-auto col-md-6 col-lg-4 white-popup-block mfp-hide">
         <div class="title">Заказать обратный звонок</div>
         <span>Заполните форму и в течение 20 минут наш менеджер вам перезвонит!</span>
-        <form class="js-main-form">
+        <form action="mail.php" method="POST" class="js-main-form">
             <input type="hidden" name="project_name" >
             <input type="hidden" name="admin_email">
             <input type="hidden" name="form_subject" >
             <div class="input_filed align-items-center d-flex">
                 <i class="fas fa-user"></i>
-                <input type="text" name="Имя" class="d-flex" placeholder="Ваше имя" required>
+                <input type="text" name="user_name" class="d-flex" placeholder="Ваше имя" required>
             </div>
             <div class="input_filed align-items-center d-flex">
                 <i class="fas fa-phone"></i>
-                <input type="tel" name="Телефон"
+                <input type="tel" name="user_phone"
                        class="d-flex js-val"
                        placeholder="Ваш номер телефон"
                        required
@@ -663,7 +663,7 @@
             <label class="confidential">
                 <input type="checkbox" name="confidential"
                       >
-                Я согласен с <a href="" target="_blank">политикой обаботки персональных данных</a>
+                Я согласен с <a  target="_blank">политикой обаботки персональных данных</a>
             </label>
         </form>
         <button title="Close (Esc)" type="button" class="mfp-close">×</button>
